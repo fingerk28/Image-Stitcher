@@ -22,13 +22,13 @@ conda install numpy
 python stitching.py --dir [IMAGE_DIRECTORY] --row [NUMBER_OF_ROWS] --rec --ratio [WIDTH_HEIGHT_RATIO]
 ```
 
-> [IMAGE_DIRECTORY]: image folder name
+> `[IMAGE_DIRECTORY]`: image folder name
 >
-> [NUMBER_OF_ROWS]: This is optional. If this argument is given, the different algorithm will be triggered
+> `--row [NUMBER_OF_ROWS]`: This is optional. If `--row [NUMBER_OF_ROWS]` is given, the different algorithm will be triggered
 >
-> --rec: This is optional. If this argument is given, the image will be rectified
+> `--rec`: This is optional. If `--rec` is given, the image will be rectified
 >
-> --ratio [WIDTH_HEIGHT_RATIO]: This is optional. If the ratio is given, the image will be rectified with respect to the ratio
+> `--ratio [WIDTH_HEIGHT_RATIO]`: This is optional. If `--rec` is given, you can determine to input `--ratio [WIDTH_HEIGHT_RATIO]` or not. If `--ratio [WIDTH_HEIGHT_RATIO]` is given, the image will be rectified with respect to the ratio
 
 
 
