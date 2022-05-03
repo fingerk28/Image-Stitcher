@@ -8,7 +8,7 @@
 
 ```shell
 conda create --name stitcher python=3.6.9
-
+conda activate stitcher
 conda install opencv=3.4.2
 conda install opencv-contrib-python=3.4.2
 conda install numpy
