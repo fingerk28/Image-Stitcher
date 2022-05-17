@@ -19,16 +19,27 @@ conda install numpy
 ## Usage
 
 ```shell
-python stitching.py --dir [IMAGE_DIRECTORY] --row [NUMBER_OF_ROWS] --rec --ratio [WIDTH_HEIGHT_RATIO]
+python stitching.py --dir [IMAGE_DIRECTORY] --row [NUMBER_OF_ROWS]
+
+Example:
+python stitching.py --dir ./test_images/
+python stitching.py --dir ./test_images/ --row 2
 ```
 
-> `[IMAGE_DIRECTORY]`: image folder name
+> `--dir [IMAGE_DIRECTORY]` &rarr; image folder name.
 >
-> `--row [NUMBER_OF_ROWS]`: This is optional. If `--row [NUMBER_OF_ROWS]` is given, the different algorithm will be triggered
+> `--row [NUMBER_OF_ROWS]` &rarr; This is optional. If `--row [NUMBER_OF_ROWS]` is given, the different algorithm will be triggered. The stitcher will stitch images for each row first, and then stitch them vertically.
 >
-> `--rec`: This is optional. If `--rec` is given, the image will be rectified
->
-> `--ratio [WIDTH_HEIGHT_RATIO]`: This is optional. If `--rec` is given, you can determine to input `--ratio [WIDTH_HEIGHT_RATIO]` or not. If `--ratio [WIDTH_HEIGHT_RATIO]` is given, the image will be rectified with respect to the ratio
+> **The stitched result will be save in `[IMAGE_DIRECTORY]/Result/`**
 
 
 
+## Guideline for Taking Pictures by iPhone
+
+1. Choose **2x mode** to take picture
+
+    <img src="C:\Users\Alex Huang\OneDrive - McKinsey & Company\Desktop\Picture1.png" alt="Picture1" style="zoom: 20%;" />
+
+2. Keep an appropriate distance between your iPhone and PCB and allow the text on IC can be clearly capture and FOV is as large as possible.
+3. If the PCB is too large and can not be capture in one row, take pictures in **Z shape**.
+4. The overlapping between photos should be in **20~30%**.
