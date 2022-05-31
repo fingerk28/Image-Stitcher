@@ -20,7 +20,7 @@ python -m pip install numpy
 
 1. Choose **2x mode** to take picture
 
-    <img src="C:\Users\Alex Huang\OneDrive - McKinsey & Company\Desktop\pic.png" alt="Picture1" style="zoom: 20%;" />
+    <img src="https://github.com/fingerk28/Image-Stitcher/blob/master/pic.png" alt="Picture1" style="zoom: 20%;" />
 
 2. Keep an appropriate distance between your iPhone and PCB and allow the text on IC can be clearly identified and FOV is as large as possible.
 
